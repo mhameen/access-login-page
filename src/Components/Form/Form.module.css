@@ -1,0 +1,93 @@
+.brandImage {
+  margin-top:50px;
+    width: 170px;
+  }
+  
+  .signText {
+    margin-top: 40px;
+    color: blue;
+  }
+  .container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+  }
+  .CardDesign{
+    margin: 30px 10px 0 10px ;
+  }
+  .design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .fa-github{
+    font-size: 18px;
+ }
+  .but1{
+    border: 2px solid skyblue;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .but2{
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(106, 106, 245);
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  .text{
+    margin-left: -90px;
+  }
+  .text2{
+    color: rgb(106, 106, 245);
+  }
+  .content {
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Comfortaa", cursive;
+  }
+
+  .sideImage1{
+    display: none;
+  }
+  .logoImage{
+    display: none;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .sideImage1{
+      display: inline-block;
+      width: 700px;
+      height:750px;
+    }
+    .context{
+      display: flex;
+    }
+    .logoImage{
+      display: inline-block;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .sideImage1{
+      display: inline-block;
+      width: 1000px;
+      height:1050px;
+    }
+    .context{
+      display: flex;
+    }
+  }
