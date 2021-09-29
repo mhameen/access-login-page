@@ -28,13 +28,13 @@ export const Form = () => {
     <div className={styles.context} >
       <div className={styles.leftContent}>
         <div>
-          <img className={styles.sideImage1} src={image2} alt="side Image" />
+          <img className={styles.sideImage1} src={image2} alt="side logo" />
           <img className={styles.logoImage} src={image3} alt="access Logo" />
         </div>
       </div>
      <div className={styles.rightContent} >
        <div className={styles.container} >
-           <img className={styles.brandImage} src={image1} alt="brand Image" />
+           <img className={styles.brandImage} src={image1} alt="brand logo" />
            <h1 className={styles.signText}>Sign Up</h1>
        </div>
         <Card className={styles.CardDesign}>
