@@ -43,14 +43,14 @@ export const Form = () => {
                 <button className={styles.but1} > 
               <i class="fab fa-github"></i> Sign up with GitHub </button>
               < hr />
-              <TextField   style = {{width: 250,  marginBottom:20,}}
+              <TextField      onChange={onChangeEmail}  style = {{width: 250,  marginBottom:20,}}
                 className={styles.outlinedName}
                 label="Enter your email"
                 placeholder="Email"/>
-                 <TextField   style = {{width: 250,  marginBottom:20,}}
-                className={styles.outlinedName}
+                 <TextField onChange={onChangePassword}  style = {{width: 250,  marginBottom:20,}}
+                className={styles.outlinedName} type= "password"
                 placeholder="password"/>
-                <button className={styles.but2} > sign up </button>
+                <button  onClick={submitform} className={styles.but2} > sign up </button>
                 <p className={styles.text} >Have an account? <span className={styles.text2} > login</span></p>
             </div>
         </Card> 
