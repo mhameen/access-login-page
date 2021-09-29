@@ -6,7 +6,6 @@ import styles from "./Form.module.css";
 import Card from "@mui/material/Card";
 import TextField from "@mui/material/TextField";
 import { useState } from "react";
-import { style } from '@mui/system';
 
 export const Form = () => {
   const [email, setEmail] = useState("");
@@ -29,13 +28,13 @@ export const Form = () => {
     <div className={styles.context} >
       <div className={styles.leftContent}>
         <div>
-          <img className={styles.sideImage1} src={image2} />
-          <img className={styles.logoImage} src={image3} />
+          <img className={styles.sideImage1} src={image2} alt="side Image" />
+          <img className={styles.logoImage} src={image3} alt="access Logo" />
         </div>
       </div>
      <div className={styles.rightContent} >
        <div className={styles.container} >
-           <img className={styles.brandImage} src={image1} />
+           <img className={styles.brandImage} src={image1} alt="brand Image" />
            <h1 className={styles.signText}>Sign Up</h1>
        </div>
         <Card className={styles.CardDesign}>
